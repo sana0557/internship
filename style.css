@@ -1581,7 +1581,7 @@ parallax & home seperator
 .mini .mini-content .mini-box i {
   display: block;
   font-size: 20px;
-margin-left: 25px;
+margin-left: 40px;
 
  align-items: middle;
   margin-bottom: 15px;
@@ -1749,7 +1749,7 @@ team
 .team-item {
   background: #fff;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
-  border-radius: 20px;
+  border-radius: 40px;
   position: relative;
   margin-bottom: 30px;
   padding-bottom: 25px;
@@ -1761,8 +1761,9 @@ team
 
 
 .team-item i {
+  align-items: middle;
   display: block;
-  margin-left: 110px;
+ margin-left:150px;
   margin-top: 25px;
   font-size: 30px;
   color: #4E47DE;
@@ -1837,7 +1838,7 @@ pricing
 .pricing-item {
   background: #FFFFFF;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
-  border-radius: 20px;
+  border-radius: 70px;
   margin-bottom: 30px;
   margin-top: 20px;
  padding: 30px 0px 40px 0px;
@@ -1901,7 +1902,7 @@ pricing
   margin: auto;
  margin-bottom: 40px;
   margin-top:-45px;
-  border-radius: 70px;
+  border-radius: 50px;
 }
 
 .pricing-item .pricing-body .price-wrapper .currency {
