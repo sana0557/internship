@@ -830,16 +830,19 @@ transform:rotateZ(-22deg)}.hero-figure-box-08::before
   margin-right:-12px;margin-left:-12px}.pricing-tables-wrap:first-child{margin-top:-12px}
   .pricing-tables-wrap:last-child{margin-bottom:-12px}
 #move{margin-bottom:50px;}
-  .pricing-table{position:relative;
+
+
+  .pricing-table{position:relative; 
     padding:12px;width:300px;max-width:350px;flex-grow:1}.pricing-table::before{content:'';
-      position:absolute;left:50%;width:200%;max-width:200%;height:500px; background-repeat:no-repeat;
+      position:absolute;left:50%;width:200%;max-width:200%;height:500px;background-repeat:no-repeat;
+   
       background-position:center;background-size:100%;bottom:18.8%;-webkit-transform:translateX(-50%);
       transform:translateX(-50%);background-image:url("assets/images/pricing-illustration.svg")}
       .pricing-table-header,.pricing-table-features-title,.pricing-table-features
-       li{border-bottom:1px solid white }.pricing-table-inner
+       li{border-bottom:1px solid white;}.pricing-table-inner
        {position:relative;display:flex;flex-wrap:wrap;
        
-      background:linear-gradient(60deg, rgb(189, 15, 145) ,rgb(74, 200, 250)  0%, #8A2BE2 100%); padding:24px;height:100%;} 
+      background:linear-gradient(60deg, rgb(189, 15, 145) ,rgb(74, 200, 250)  0%, #8A2BE2 100%); padding:24px;height:100%;border-radius: 40px;} 
      /*   background:#062264;padding:24px;height:100%*/
        
 
@@ -1547,6 +1550,7 @@ parallax & home seperator
   border-radius: 20px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   margin-bottom: 30px;
+
   position: relative;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1577,6 +1581,9 @@ parallax & home seperator
 .mini .mini-content .mini-box i {
   display: block;
   font-size: 20px;
+margin-left: 25px;
+
+ align-items: middle;
   margin-bottom: 15px;
 }
 
@@ -1755,7 +1762,7 @@ team
 
 .team-item i {
   display: block;
-  margin-left: 100px;
+  margin-left: 110px;
   margin-top: 25px;
   font-size: 30px;
   color: #4E47DE;
@@ -1833,7 +1840,7 @@ pricing
   border-radius: 20px;
   margin-bottom: 30px;
   margin-top: 20px;
-  padding: 30px 0px 40px 0px;
+ padding: 30px 0px 40px 0px;
 }
 
 .pricing-item.active .pricing-header {
@@ -1886,14 +1893,15 @@ pricing
 
 .pricing-item .pricing-body .price-wrapper {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 13px;
+  padding-top: 0px;
+  padding-bottom: 7px;
+ 
   background: #8261ee;
   width: 80%;
   margin: auto;
-  margin-bottom: 40px;
-  margin-top: 5px;
-  border-radius: 20px;
+ margin-bottom: 40px;
+  margin-top:-45px;
+  border-radius: 70px;
 }
 
 .pricing-item .pricing-body .price-wrapper .currency {
@@ -1922,6 +1930,7 @@ pricing
 .pricing-item .pricing-body .list li {
   text-align: center;
   margin-bottom: 12px;
+ 
   font-weight: 400;
   font-size: 13px;
   color: #7a7a7a;
@@ -1938,6 +1947,7 @@ pricing
   text-align: center;
   margin-top: 50px;
 }
+
 
 /* 
 ---------------------------------------------
