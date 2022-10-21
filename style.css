@@ -396,16 +396,17 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
 }
 
 .header-area .main-nav .logo img {
-  margin-top:-23px;
-  -webkit-transition: all 0.3s ease 0s;
+margin-top:-20px;
+  position: fixed;
+/*  -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;*/
 }
 .header-area .main-nav .logo h6{
   margin-left:150px;
-  margin-top: -45px;
  
+ position: fixed;
 }
 
 
