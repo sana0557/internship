@@ -371,6 +371,7 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   right: 0px;
   z-index: 100;
   height: 50px;
+  
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
@@ -391,15 +392,22 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
-  margin-left: 30px;
+  margin-left: 18.5px;
 }
 
 .header-area .main-nav .logo img {
+  margin-top:-23px;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
+.header-area .main-nav .logo h6{
+  margin-left:150px;
+  margin-top: -45px;
+ 
+}
+
 
 .header-area .main-nav .nav {
   float: right;
@@ -433,9 +441,10 @@ h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
   height: 40px;
-  line-height: 40px;
+  line-height: 30px;
   border: transparent;
-  letter-spacing: 1px;
+  
+  letter-spacing: 0px;
 }
 
 .header-area .main-nav .nav li a:hover {
@@ -2201,8 +2210,8 @@ preloader
 }
 
 #preloader .jumper > div:nth-child(2) {
-  -webkit-animation-delay: 0s;
-  animation-delay: 0s;
+  -webkit-animation-delay: 0.33333s;
+  animation-delay: 0.33333s;
 }
 
 #preloader .jumper > div:nth-child(3) {
