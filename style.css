@@ -324,6 +324,8 @@ small{font-size:80%}sub,sup{font-size:75%;line-height:0;
                           .footer-copyright{justify-content:flex-start}
                           .footer-links,.footer-social-links{justify-content:flex-end}
                           .footer-links{order:1;margin-bottom:0}}
+
+
 */
 
 .mt-24 {
@@ -1231,7 +1233,7 @@ a.main-button-slider {
 }
 
 a.main-button-slider:hover {
-  background-color: #8261ee;
+  background-color: #58aeff;
 }
 
 a.main-button {
@@ -1249,7 +1251,7 @@ a.main-button {
 }
 
 a.main-button:hover {
-  background-color: #ff589e;
+  background-color: #58aeff;
 }
 
 button.main-button {
@@ -1270,7 +1272,7 @@ button.main-button {
 }
 
 button.main-button:hover {
-  background-color: #ff589e;
+  background-color: #58aeff;
 }
 
 
@@ -1309,7 +1311,7 @@ div.icon{
 }
 
 .features-small-item:hover .icon {
-  background-color: #ff589e;
+  background-color: #58aeff;
   
 }
 
@@ -1831,8 +1833,8 @@ team
 .team-item .team-content .team-info span {
   display: block;
   font-weight: 400;
-  font-size: 15px;
-  color: #ff589e;
+  font-size: 17px;
+  color: #8261ee;
   letter-spacing: 0.25px;
 }
 
@@ -2137,7 +2139,7 @@ footer .social li a {
 }
 
 footer .social li a:hover {
-  background-color: #ff589e;
+  background-color: #58aeff;
   color: #fff;
 }
 
