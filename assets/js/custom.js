@@ -95,7 +95,8 @@
 
 
 	// Page loading animation
-	$(window).on('load', function() {
+
+	$(document).ready (function() {
 		if($('.cover').length){
 			$('.cover').parallax({
 				imageSrc: $('.cover').data('image'),
