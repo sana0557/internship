@@ -600,6 +600,9 @@ transform:rotateZ(-22deg)}.hero-figure-box-08::before
            .section.no{
             background-image: linear-gradient(135deg, #a759d1 0%, #8261ee 91%);
            }
+           #template{
+            padding-top: 10px;
+           }
 
           }
 
