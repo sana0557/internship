@@ -331,29 +331,12 @@ margin-top:-22px;
     display: none;
   }
 }
-@media only screen and (min-width: 244px)and (max-width:356px){
-  .header-area .main-nav{
-   min-height: 100px;
-
- 
-  }
+@media only screen and (min-width: 243px)and (max-width:356px){
+  
   .header-area .main-nav .logo h6 {
-    margin-left:10px;
-    margin-top:45px;
-   position: fixed;
+  display:none;
   }
-  .header-area .main-nav .menu-trigger {
-    cursor: pointer;
-    display: block;
-    position: absolute;
-    top: 35px;
-    width: 32px;
-    height: 40px;
-    text-indent: -9999em;
-    z-index: 99;
-    right: 40px;
-    display: none;
-  }
+  
  
 }
 @media only screen and (max-width: 991px) {
