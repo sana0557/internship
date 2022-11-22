@@ -1116,8 +1116,14 @@ button.main-button {
 button.main-button:hover {
   background-color: #58aeff;
 }
-
-
+.team-content #pic{
+  filter: invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(100%) contrast(98%);
+  -webkit-filter:invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%);
+}
+.row #pic{
+  filter: invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(100%) contrast(98%);
+  -webkit-filter:invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%);
+}
 
 
 
@@ -1168,7 +1174,7 @@ div.icon{
   margin: auto;
   position: relative;
   margin-bottom: 30px;
-  background: #8261ee;
+  background: #0270D7;
  
   -webkit-border-radius: 50%;
   -moz-border-radius: 50%;
@@ -1215,6 +1221,7 @@ div.icon{
 }
 .img{
   vertical-align: middle;
+
 }
 @media (max-width: 991px) {
   .home-feature {
@@ -1225,108 +1232,6 @@ div.icon{
 }
 
 
-
-/* 
----------------------------------------------
-features
---------------------------------------------- 
-
-.features-small-item {
-  cursor: pointer;
-  display: block;
-  background: #FFFFFF;
-  box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.10);
-  -webkit-border-radius: 20px;
-  -moz-border-radius: 20px;
-  border-radius: 20px;
-  padding: 30px;
-
-  text-align: center;
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  position: relative;
-  margin-bottom: 30px;
-}
-
-.features-small-item:hover .icon {
-  background-color: #ff589e;
-}
-
-.features-small-item .icon {
-  -webkit-transition: all 0.3s ease 0s;
-  -moz-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
-  transition: all 0.3s ease 0s;
-  width: 90px;
-  height: 90px;
-  line-height: 90px;
-  margin: auto;
-  position:relative;
-  margin-bottom: 30px;
-
-  background: #8261ee;
-  -webkit-border-radius: 50%;
-  -moz-border-radius: 50%;
-  border-radius: 50%;
-}
-img{vertical-align: middle;}
-.features-small-item .icon i {
-  font-size: 18px;
-
-  color: #fff;
-}
-
-.features-small-item .features-title {
-  font-weight: 500;
-  font-size: 18px;
-  color: #1e1e1e;
-  letter-spacing: 0.7px;
-  margin-bottom: 15px;
-  position: relative;
-  z-index: 2;
-}
-
-.features-small-item p {
-  font-weight: 400;
-  font-size: 13px;
-  color: #777;
-  letter-spacing: 0.5px;
-  line-height: 25px;
-  position: relative;
-  z-index: 2;
-}
-
-.features-small-item a {
-  float: right;
-  position: relative;
-  z-index: 2;
-}
-
-.home-feature {
-  padding-bottom: 0px;
-  padding-top: 30px;
-  margin-top: -120px;
-  z-index: 9;
-}
-
-#next{
-  margin-top: -40px;
-}
-
-#features{
-  margin-top: -17px;
-}
-
-@media (max-width: 991px) {
-  .home-feature {
-    padding-bottom: 0px;
-    padding-top: 0px;
-    margin-top: 0px;
-  }
-}
-*/
 
 
 /* 
@@ -1405,6 +1310,8 @@ parallax & home seperator
 .mini .mini-content .info p span {
   text-decoration: underline;
 }
+.mini .mini-content .mini-box img {  filter: invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%);
+  -webkit-filter:invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%); }
 
 .mini .mini-content .mini-box {
   display: block;
@@ -1949,7 +1856,7 @@ footer
 --------------------------------------------- 
 */
 footer {
-  background-image: linear-gradient(127deg, #a759d1 0%, #8261ee 91%);
+  background-image:linear-gradient(60deg, rgb(252, 239, 249) ,rgb(74, 200, 250)  0%, #af7be1 100%); 
   padding-top: 30px;
 }
 
