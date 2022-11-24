@@ -326,17 +326,42 @@ margin-top:-22px;
     padding-left: 12px;
     padding-right: 12px;
   }
- 
+  .header-area .logo {
+    margin-top: 27px !important;
+    margin-left: 30px;   
+  }
+  .header-area a.logo img{
+    background: url(assets/images/newlogo.PNG);
+    background-repeat: no-repeat;
+    width:100px;
+    height:50px;
+  }
+
+  .header-area .main-nav{
+    height: 10px;
+}
   .header-area .main-nav:before {
     display: none;
+   
   }
+ 
 }
-@media only screen and (min-width: 243px)and (max-width:356px){
+@media only screen and (min-width: 243px)and (max-width:950px){
   
+  .header-area .main-nav {
+    min-height: 60px;
+   }
   .header-area .main-nav .logo h6 {
   display:none;
   }
-  
+ 
+  .header-area a.logo img{
+    background: url(assets/images/newlogo.PNG);
+    background-repeat: no-repeat;
+    width:100px;
+    height:50px;
+  }
+ 
  
 }
 @media only screen and (max-width: 991px) {
@@ -358,9 +383,11 @@ margin-top:-22px;
   }
   .header-area .menu-trigger {
     display: block !important;
+    margin-top: -10px;
   }
   .header-area .main-nav {
     overflow: hidden;
+  
   }
   .header-area .main-nav .nav {
     float: none;
@@ -511,16 +538,16 @@ pre{font-size:16px;line-height:24px;margin-bottom:1.6em;max-width:100%;overflow:
 .control{flex-shrink:0}.field-grouped>.control.control-expanded{flex-grow:1;flex-shrink:1}
 .field-grouped>.control:not(:last-child){margin-bottom:0;margin-right:8px}}
 .button{display:inline-flex;font-size:14px;letter-spacing:0px;font-weight:600;line-height:16px;
-  text-decoration:none !important;text-transform:uppercase;background-color:purple;
+  text-decoration:none !important;text-transform:uppercase;background-color:rgb(176, 31, 176);
   color:#fff !important;border:none;border-radius:20px;cursor:pointer;
   justify-content:center;padding:16px 32px;height:48px;text-align:center;white-space:nowrap}
-  .button:hover{background:rgb(15, 104, 146)}.button:active{outline:0}.button::before{border-radius:2px}
+  .button:hover{background:#198ffd}.button:active{outline:0}.button::before{border-radius:2px}
   .button-sm{padding:8px 24px;height:32px}
   
-  .button-primary{background:#6740e8; border-radius:20px;
+  .button-primary{background:#0275e1; border-radius:20px;
     background:color(65deg, black 0, purple 100%)}
     .button-primary:hover{background:rgb(15, 104, 146);
-      background:linear-gradient(65deg, #0275e1 0, #198ffd 100%)}
+      background:linear-gradient(65deg, #0b4984 0, #166cbc 100%)}
       .button-block{display:flex}.button-block{display:flex;width:100%}
       @media (max-width: 640px){.button-wide-mobile{width:100%;max-width:280px}}
      
@@ -576,8 +603,8 @@ background:linear-gradient(to left top, #0270D7  , #0270D7);
 .hero-figure-box-02::before{background:linear-gradient(to top, #0270D7 0%, #0270D7 60%);
 -webkit-transform:rotateZ(-45deg) scale(1.5);transform:rotateZ(-45deg) scale(1.5)}
 .hero-figure-box-03{left:87.7%;top:-56.8%;width:56.81%;height:75.75%;
-background:linear-gradient(to left top, #0270D7, rgba(0,191,251,0))}
- .hero-figure-box-03::before{background:linear-gradient(to left, #15181D 0%, rgba(21,24,29,0) 60%);                
+background:linear-gradient(to left top, #0270D7, #0270D7)}
+ .hero-figure-box-03::before{background:linear-gradient(to left, #0270D7 0%, rgba(21,24,29,0) 60%);                
 -webkit-transform:rotateZ(45deg) scale(1.5);transform:rotateZ(45deg) scale(1.5)}   
 .hero-figure-box-04{left:54.9%;top:-8%;width:45.45%;height:60.60%;
 background:linear-gradient(to left top, 	#0270D7, #0270D7);
@@ -1082,7 +1109,7 @@ a.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: purple;
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -1103,7 +1130,7 @@ button.main-button {
   font-size: 13px;
   border-radius: 20px;
   padding: 12px 20px;
-  background-color: #8261ee;
+  background-color: rgb(195, 54, 195);
   text-transform: uppercase;
   color: #fff;
   letter-spacing: 0.25px;
@@ -1247,7 +1274,9 @@ parallax & home seperator
   padding-top: 90px;
   padding-bottom: 90px;
 }
-
+#counter{
+  margin-top: -40px;
+}
 .mini:before {
   content: '';
   position: absolute;
@@ -1586,7 +1615,9 @@ team
   color: #8261ee;
   letter-spacing: 0.25px;
 }
-
+#testimonials{
+  margin-top: -100px;
+}
 .team-item .team-content p {
   margin-top: 25px;
   padding-left: 25px;
@@ -1604,7 +1635,7 @@ team
 ---------------------------------------------
 pricing
 --------------------------------------------- 
-*/
+
 .pricing-item {
   background: #FFFFFF;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.1);
@@ -1719,12 +1750,12 @@ pricing
   margin-top: 50px;
 }
 
-
+*/
 /* 
 ---------------------------------------------
 blog
 --------------------------------------------- 
-*/
+
 .blog-post-thumb {
   text-align: center;
   margin-bottom: 30px;
@@ -1804,7 +1835,7 @@ contact
 #contact-us {
   padding: 160px 0px;
   color: #777;
-
+margin-top: -100px;
 }
 
 #contact-us h5 {
@@ -1872,7 +1903,7 @@ footer .social li {
 }
 
 footer .social li a {
-  color: #9d5bd9;
+  color: #0270D7;
    text-align: center;
   background-color: #fff;
   width: 36px;
