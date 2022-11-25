@@ -336,7 +336,10 @@ margin-top:-22px;
     width:100px;
     height:50px;
   }
-
+  .header-area .main-nav .logo h6 {
+   margin-left:110px;
+   margin-top: -9px;
+    }
   .header-area .main-nav{
     min-height: 60px;
 }
@@ -362,7 +365,9 @@ margin-top:-22px;
     width:100px;
     height:50px;
   }
- 
+ .header-area .menu-trigger{
+  margin-top:-7px;
+ }
  
 }
 @media only screen and (max-width: 991px) {
