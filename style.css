@@ -1346,12 +1346,14 @@ parallax & home seperator
   text-decoration: underline;
 }
 .mini .mini-content .mini-box img {  filter: invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%);
-  -webkit-filter:invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%); }
+  -webkit-filter:invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%); 
+}
 
 .mini .mini-content .mini-box {
   display: block;
   background: #fff;
-  padding: 20px;
+  padding-top: 10px;
+ min-height: 155px;
   border-radius: 20px;
   box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   margin-bottom: 30px;
@@ -1386,17 +1388,19 @@ parallax & home seperator
 .mini .mini-content .mini-box i {
   display: block;
   font-size: 20px;
-margin-left: 40px;
+margin-left: 55px;
 
  align-items: middle;
-  margin-bottom: 15px;
+ 
 }
+
 
 .mini .mini-content .mini-box span {
   display: block;
   font-weight: 400;
   font-size: 14px;
   color: #777;
+  margin-top: 10px;
   letter-spacing: .75px;
 }
 
