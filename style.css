@@ -757,7 +757,7 @@ transform:rotateZ(-22deg)}.hero-figure-box-08::before
 
 
 
-/*change background*/         .body-wrap{ background:  white  100%; overflow:hidden;display:flex;
+/*change background*/         .body-wrap{ background: rgb(248, 245, 248)  100%; overflow:hidden;display:flex;
 
 
   flex-direction:column;min-height:100vh}
@@ -1173,7 +1173,8 @@ features
   -webkit-border-radius: 20px;
   -moz-border-radius: 20px;
   border-radius: 20px;
-  padding: 30px;
+  padding-top: 10px;
+  min-height: 380px;
   text-align: center;
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
@@ -1293,6 +1294,8 @@ parallax & home seperator
   background-size: cover;
   background-position: center center;
   background-image: url(assets/images/work-process-bg.png);
+  /*filter: invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%);
+  -webkit-filter:invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%);*/
   z-index: 2;
   top: -20%;
   left: -20%;
@@ -1425,9 +1428,14 @@ margin-left: 55px;
   width: 140%;
   height: 140%;
   opacity: .90;
-  background-image: url(assets/images/fun-facts-bg.png);
+   background-image: url(assets/images/fun-facts-bg.png);
+ /*filter: invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%);
+  -webkit-filter:invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%);*/
+ 
+
   background-repeat: no-repeat;
   background-size: cover;
+  
   background-position: center center;
   z-index: 2;
   top: -20%;
