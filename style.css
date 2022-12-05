@@ -1174,6 +1174,8 @@ features
   -moz-border-radius: 20px;
   border-radius: 20px;
   padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 11px;
   min-height: 380px;
   text-align: center;
   -webkit-transition: all 0.3s ease 0s;
@@ -1420,32 +1422,38 @@ margin-left: 55px;
 .counter {
   overflow: hidden;
   position: relative;
-}
+  background-color:linear-gradient(60deg, rgb(252, 239, 249) ,rgb(74, 200, 250)  0%, #af7be1 100%); 
 
-.counter:before {
+  }
+
+.counter::before {
   content: '';
   position: absolute;
   width: 140%;
   height: 140%;
   opacity: .90;
-   background-image: url(assets/images/fun-facts-bg.png);
- /*filter: invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%);
-  -webkit-filter:invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%);*/
- 
-
+    background-image: url(assets/images/fun-facts-bg.png);
+    
+    /*
+filter: invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%);
+  -webkit-filter:invert(26%) sepia(97%) saturate(2287%) hue-rotate(195deg) brightness(93%) contrast(98%);
+  background:linear-gradient(60deg, rgb(252, 239, 249) ,rgb(74, 200, 250)  0%, #af7be1 100%);*/
+  
   background-repeat: no-repeat;
   background-size: cover;
-  
+ 
   background-position: center center;
   z-index: 2;
   top: -20%;
   left: -20%;
+ 
 }
 
 .counter .content {
   position: relative;
   z-index: 3;
   width: 100%;
+  
 }
 
 .counter .content .count-item {
@@ -1467,10 +1475,12 @@ margin-left: 55px;
   top: 160px;
   left: 70%;
   background: url(assets/images/circle-dec.png) center center no-repeat;
+ 
   -webkit-transition: all 0.3s ease 0s;
   -moz-transition: all 0.3s ease 0s;
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
+  
 }
 
 .counter .content .count-item.decoration-top {
