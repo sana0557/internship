@@ -1259,6 +1259,7 @@ div.icon{
   vertical-align: middle;
 
 }
+
 @media (max-width: 991px) {
   .home-feature {
     padding-bottom: 0px;
@@ -1394,7 +1395,7 @@ parallax & home seperator
   display: block;
   font-size: 20px;
 margin-left: 55px;
-
+position: relative;
  align-items: middle;
  
 }
@@ -1417,6 +1418,22 @@ margin-left: 55px;
   letter-spacing: 0.25px;
   margin-bottom: 5px;
   margin-top: 20px;
+}
+@media(max-width:590px){
+  .mini .mini-content .mini-box i {
+    display: block;
+    font-size: 20px;
+ 
+  
+   
+  }
+  .mini .mini-content .mini-box i img{
+  align-items: center;
+  }
+  .mini .mini-content .mini-box{
+    min-height: 170px;
+  }
+
 }
 
 .counter {
